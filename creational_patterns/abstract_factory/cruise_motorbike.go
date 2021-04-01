@@ -2,14 +2,14 @@ package abstract_factory
 
 type CruiseMotorbike struct{}
 
-func (s *CruiseMotorbike) NumWheels() int {
+func (c *CruiseMotorbike) NumWheels() int {
 	return 2
 }
 
-func (s *CruiseMotorbike) NumSeats() int {
+func (c *CruiseMotorbike) NumSeats() int {
 	return 1
 }
 
-func (s *CruiseMotorbike) GetMotorbikeType() int {
+func (c *CruiseMotorbike) GetMotorbikeType() int {
 	return CruiseMotorbikeType
 }

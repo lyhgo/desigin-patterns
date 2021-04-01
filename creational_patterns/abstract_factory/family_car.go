@@ -2,14 +2,14 @@ package abstract_factory
 
 type FamilyCar struct{}
 
-func (*FamilyCar) NumDoors() int {
+func (f *FamilyCar) NumDoors() int {
 	return 5
 }
 
-func (*FamilyCar) NumWheels() int {
+func (f *FamilyCar) NumWheels() int {
 	return 4
 }
 
-func (*FamilyCar) NumSeats() int {
+func (f *FamilyCar) NumSeats() int {
 	return 5
 }
